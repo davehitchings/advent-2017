@@ -55,7 +55,7 @@ const partOneInputTest = [
   ['2', '4', '6', '8'],
 ];
 
-console.log('Advent One:');
+console.log('Advent Two:');
 console.log('Part One:');
 console.log('Tests:');
 test(adventTwoPartOne(partOneInputTest), 18, 'test');
