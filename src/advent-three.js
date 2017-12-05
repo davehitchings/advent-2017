@@ -1,5 +1,7 @@
 import test from './test';
 
+// Track where we have moved from, based on the position in the ring edge, then
+// unravel the array and sum up the movements.
 export function adventThreePartOne(input) {
   const arr = [
     {
@@ -43,6 +45,9 @@ export function adventThreePartOne(input) {
   return Math.abs(movement.horizontal) + Math.abs(movement.vertical);
 }
 
+
+// Draw out a two dimensional array, place the values one by one checking every
+// box around the places value for its value.
 export function adventThreePartTwo(input) {
   let ringWidth = 1;
   const arr = [];
