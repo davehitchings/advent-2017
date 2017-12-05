@@ -62,12 +62,12 @@ export function adventThreePartTwo(input) {
   const center = Math.floor(ringWidth / 2);
   let currX = center;
   let currY = center;
+  let lastVal = 1;
+  let position = 1;
 
   ringWidth = 1;
   arr[currY][currX] = 1;
 
-  let lastVal = 1;
-  let position = 1;
   while (input >= lastVal) {
     const edge = ringWidth - 1;
     const first = (ringWidth - 2) ** 2;
