@@ -5,6 +5,7 @@ export function adventFivePartOne(a) {
   const arr = [...a];
   let steps = 0;
   let cursor = 0;
+
   while (arr[cursor] !== undefined) {
     const nextCursor = cursor + arr[cursor];
 
@@ -20,6 +21,7 @@ export function adventFivePartTwo(a) {
   const arr = [...a];
   let steps = 0;
   let cursor = 0;
+
   while (arr[cursor] !== undefined) {
     const nextCursor = cursor + arr[cursor];
 

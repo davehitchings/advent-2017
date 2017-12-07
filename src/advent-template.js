@@ -12,9 +12,9 @@ console.log('Advent Day:');
 console.log('Part One:');
 console.log('Tests:');
 test(adventDayPartOne(), 0, '');
-console.log('Answer:', adventDayPartOne());
+// console.log('Answer:', adventDayPartOne());
 
-console.log('Part Two:');
-console.log('Tests:');
-test(adventDayPartTwo(), 0, '');
-console.log('Answer:', adventDayPartTwo());
+// console.log('Part Two:');
+// console.log('Tests:');
+// test(adventDayPartTwo(), 0, '');
+// console.log('Answer:', adventDayPartTwo());
